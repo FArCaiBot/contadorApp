@@ -24,7 +24,7 @@ function StatsCard({numClics}) {
             <Flex justifyContent={'space-between'}>
                 <Box pl={{ base: 2, md: 4 }}>
                     <StatLabel fontWeight={'medium'} isTruncated>
-                        Clics
+                        Contar
                     </StatLabel>
                     <StatNumber fontSize={'2xl'} fontWeight={'medium'}>
                         {numClics}
